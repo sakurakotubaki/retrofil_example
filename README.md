@@ -1,16 +1,29 @@
 # retrofil_example
 
-A new Flutter project.
+add retrofit:
+```shell
+flutter pub add dio && \
+flutter pub add retrofit && \
+dart pub add retrofit_generator
+```
 
-## Getting Started
+add: flutter_riverpod:
+```shell
+flutter pub add \
+flutter_riverpod \
+riverpod_annotation \
+dev:riverpod_generator \
+dev:build_runner \
+dev:custom_lint \
+dev:riverpod_lint
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+add: freezed:
+```shell
+flutter pub add \
+  freezed_annotation \
+  --dev build_runner \
+  --dev freezed \
+  json_annotation \
+  --dev json_serializable
+```
